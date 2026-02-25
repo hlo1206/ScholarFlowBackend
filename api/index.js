@@ -6,7 +6,7 @@ const corsHandler = cors({ origin: true });
 
 // TERA SUPABASE DATA (PRO-FIX)
 const S_URL = "https://cctrgxbnntwjmjvxtnpk.supabase.co";
-const S_KEY = "sb_publishable_3N6MyW8hgvFcJg5zyqj5xA_OtYygV2H";
+const S_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNjdHJneGJubnR3am1qdnh0bnBrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIwMDA1NjQsImV4cCI6MjA4NzU3NjU2NH0.8YBc6pLD4rcywYmNdYj5u77H_05pRZKy-x4Nfm39dYo";
 
 // Gemini Behavior
 const SYSTEM_PROMPT = "You are 'ScholarFlow AI', a friendly student assistant. Help with homework, explain notes, and solve doubts in Hinglish. You are smart, professional, and encouraging.";
