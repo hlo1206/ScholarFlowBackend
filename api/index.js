@@ -5,7 +5,7 @@ const cors = require('cors');
 const corsHandler = cors({ origin: true });
 
 // TERA SUPABASE DATA (PRO-FIX)
-const S_URL = "https://cctrgxbnnntwjmjvxtnpk.supabase.co";
+const S_URL = "https://cctrgxbnntwjmjvxtnpk.supabase.co";
 const S_KEY = "sb_publishable_3N6MyW8hgvFcJg5zyqj5xA_OtYygV2H";
 
 // Gemini Behavior
