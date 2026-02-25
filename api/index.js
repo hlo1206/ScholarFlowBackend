@@ -5,7 +5,7 @@ const cors = require('cors');
 const corsHandler = cors({ origin: true });
 
 // --- CONFIG (TERA DATA) ---
-const S_URL = "https://cctrgxbnnntwjmjvxtnpk.supabase.co"; // Corrected URL (3 'n')
+const S_URL = "https://cctrgxbnntwjmjvxtnpk.supabase.co"; // Corrected URL (3 'n')
 const S_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNjdHJneGJubnR3am1qdnh0bnBrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIwMDA1NjQsImV4cCI6MjA4NzU3NjU2NH0.8YBc6pLD4rcywYmNdYj5u77H_05pRZKy-x4Nfm39dYo";
 
 // AI Behavior (System Prompt)
