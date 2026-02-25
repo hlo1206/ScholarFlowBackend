@@ -71,7 +71,7 @@ module.exports = async (req, res) => {
     // ---------------------------------------------------------
     if (path.includes('/api/ai') && req.method === 'POST') {
         const { prompt, history } = req.body;
-        const MODEL = process.env.GEMINI_MODEL || "gemini-1.5-flash"; // Vercel Dashboard mein 'gemini-2.0-flash' set karna
+        const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash"; // Vercel Dashboard mein 'gemini-2.0-flash' set karna
         const keys = getApiKeys();
 
         if (keys.length === 0) return res.status(500).json({ error: "API Keys missing in Vercel!" });
