@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
 
     if (req.method === 'OPTIONS') return res.status(200).end();
 
-    const MODEL_NAME = process.env.GEMINI_MODEL || "gemini-1.5-flash";
+    const MODEL_NAME = process.env.GEMINI_MODEL || "gemini-2.5-flash";
     const API_KEYS = [];
     for (let i = 1; i <= 7; i++) { if (process.env[`GEMINI_KEY_${i}`]) API_KEYS.push(process.env[`GEMINI_KEY_${i}`]); }
 
