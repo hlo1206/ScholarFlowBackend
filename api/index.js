@@ -40,7 +40,7 @@ module.exports = async (req, res) => {
         for (const key of keysToTry) {
             try {
                 // Gemini 1.5 Flash (Ya 2.0/2.5 as per your requirement)
-                const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`;
+                const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${key}`;
                 
                 const response = await axios.post(url, {
                     contents: [{ parts: [{ text: prompt }] }]
