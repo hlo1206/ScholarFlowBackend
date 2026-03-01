@@ -1,4 +1,4 @@
-aconst axios = require('axios');
+const axios = require('axios');
 const cors = require('cors');
 
 // 1. CORS Setup (Website aur App dono ke liye)
